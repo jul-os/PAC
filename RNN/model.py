@@ -137,7 +137,7 @@ NUM_LAYERS = 2
 DROPOUT = 0.2
 LEARNING_RATE = 0.001
 # 🔥 УВЕЛИЧЬТЕ для лучшего качества (50-100)
-EPOCHS = 30
+EPOCHS = 100
 
 dataset = CharDataset(X_data, y_data)
 train_size = int(0.9 * len(dataset))
